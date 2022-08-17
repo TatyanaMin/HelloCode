@@ -13,19 +13,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Examples\\Example007_Magic\\Example007_Magic.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Крусы Тестировщик с нуля\\Examples\\Example007_Magic\\Example007_Magic.csproj",
       "projectName": "Example007_Magic",
-      "projectPath": "C:\\Users\\User\\Examples\\Example007_Magic\\Example007_Magic.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Крусы Тестировщик с нуля\\Examples\\Example007_Magic\\Example007_Magic.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Examples\\Example007_Magic\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Крусы Тестировщик с нуля\\Examples\\Example007_Magic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
