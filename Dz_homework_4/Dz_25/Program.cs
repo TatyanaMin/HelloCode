@@ -11,6 +11,6 @@ for (int i = 1; i < b; i++)
 {
 step = step * a;
 }
-Console.WriteLine("Ответ: " + step + " " + "(" + a+ "^" + b +")");
+Console.WriteLine("Ответ: " + step + " " + "(" + a + "^" + b +")");
   
 
