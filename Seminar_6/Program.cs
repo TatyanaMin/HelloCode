@@ -11,35 +11,30 @@ int[] array = GenerateRandomIntArray();
 ShowArray(array);
 Console.Write($"Количество элементов в массиве в диапазоне от {minRange} до {maxRange} получается - {SearchAllNubersInRange(array, minRange, maxRange)}");
 
-int[] GenerateRandomIntArray(int quantity = 123, int minNumber = 10, int maxNumber = 500)
+int[] GenerateRandomIntArray(int numberArryaElements = 123, int minNumber = 10, int maxNumber = 500)
 {
-    int[] array = new int[quantity];
+    int[] array = new int[numberArryaElements];
     Random random = new Random();
-
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = random.Next(minNumber, maxNumber);
     }
-
     return array;
 }
 
 void ShowArray(int[] array)
 {
-    Console.Write("Generated array - ");
-
+    Console.Write("Массив из 123 случайных чисел:");
     foreach (int item in array)
     {
         Console.Write($"{item} ");
     }
-
     Console.WriteLine();
 }
 
 int SearchAllNubersInRange(int[] array, int minRangeNumber, int maxRangeNumber)
 {
     int count = 0;
-
     foreach (int item in array)
     {
         if (item > minRangeNumber && item < maxRangeNumber)
@@ -47,6 +42,5 @@ int SearchAllNubersInRange(int[] array, int minRangeNumber, int maxRangeNumber)
             count ++;
         }
     }
-
     return count;
 }
