@@ -21,13 +21,9 @@ for (int i = 0; i < m; i++)
     Console.WriteLine();
 }
 
-double result = 0;
-
 for (int j = 0; j < n; j++)
 {
-    result = Average(j);
-    Console.WriteLine("Среднее арифметическое каждого столбца: " + result);
-    
+    Console.WriteLine("Среднее арифметическое каждого столбца: " + Average(j));
 }
 
 double Average(int column)
