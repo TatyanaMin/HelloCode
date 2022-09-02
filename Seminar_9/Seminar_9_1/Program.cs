@@ -1,6 +1,6 @@
 ﻿// Рисуем спираль
 
-using System;
+using System; //  не обращать внимание на using
 Console.WriteLine("введите число");
 int n = int.Parse (Console.ReadLine());
 int[,] array = new int[n,n];
